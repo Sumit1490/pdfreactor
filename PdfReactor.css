@@ -1,0 +1,49 @@
+﻿@page {
+    counter-increment: page 1;
+    font-size: 10pt;
+    font-family: 'Trebuchet MS';
+    font-weight: normal;
+
+    @top-right {
+        margin-top: -30px;
+        text-align: right;
+        content: "Page "counter(page) " of "counter(pages);
+    }
+}
+
+
+.logo-text {
+    margin-left: 45px;
+    font-size: 9.5pt;
+    font-family: 'Trebuchet MS';
+    margin-top: 8px;
+}
+
+.barcodeText {
+    padding-left: 5px;
+    font-weight: 500;
+    font-size: 7pt;
+    font-family: 'Trebuchet MS';
+}
+
+p.letterFont {
+    font-family: 'Trebuchet MS';
+    font-weight: normal;
+    font-size: 12pt;
+}
+
+li.letterFont {
+    font-family: 'Trebuchet MS';
+    font-weight: normal;
+    font-size: 12pt;
+}
+
+.address {
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    margin-top: 90px;
+}
+
+    .address p {
+        margin: 1px;
+    }
